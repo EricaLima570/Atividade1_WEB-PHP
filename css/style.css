@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #007bff;
+    font-family: Arial, sans-serif;
+}
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    border: 8px solid rgb(4, 4, 77) ;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+input {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estiliza o botão */
+button {
+    width: 40%;
+    padding: 5px;
+    background-color: #1d548f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #5880ac;
+}

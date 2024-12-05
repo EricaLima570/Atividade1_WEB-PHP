@@ -1,0 +1,45 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estiliza o título principal */
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Estiliza a lista */
+ul {
+    list-style-type: none; /* Remove marcadores padrão */
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estiliza cada item da lista */
+li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza os links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Altera a cor do link ao passar o mouse */
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
